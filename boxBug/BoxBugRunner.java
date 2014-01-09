@@ -35,7 +35,7 @@ public class BoxBugRunner
         // BoxBug bob = new BoxBug(3);
         // world.add(new Location(7, 8), alice);
         // world.add(new Location(5, 5), bob);
-        SpiralBug michael = new SpiralBug(4);
+        ZBug michael = new ZBug(10);
         world.add(new Location(9,9), michael);
         world.show();
 
