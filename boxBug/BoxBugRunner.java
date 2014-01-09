@@ -30,11 +30,15 @@ public class BoxBugRunner
     public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();
-        BoxBug alice = new BoxBug(6);
-        alice.setColor(Color.ORANGE);
-        BoxBug bob = new BoxBug(3);
-        world.add(new Location(7, 8), alice);
-        world.add(new Location(5, 5), bob);
+        // BoxBug alice = new BoxBug(6);
+        // alice.setColor(Color.ORANGE);
+        // BoxBug bob = new BoxBug(3);
+        // world.add(new Location(7, 8), alice);
+        // world.add(new Location(5, 5), bob);
+        SpiralBug michael = new SpiralBug(4);
+        world.add(new Location(9,9), michael);
         world.show();
+
+        
     }
 }
