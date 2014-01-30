@@ -55,7 +55,6 @@ public class ChameleonCritter extends Critter
     /**
      * Turns towards the new location as it moves.
      */
-    ouch Part4.
 
     private void darker() 
     { 
