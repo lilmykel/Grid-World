@@ -12,7 +12,6 @@ public class BlusterCritter extends Critter{
 	private int courage = 2;
 	private static double DARKENING_FACTOR = 0.1;
 
-
 	public void processActors(ArrayList<Actor> actors)
     {
   		int n = 0;
@@ -30,8 +29,7 @@ public class BlusterCritter extends Critter{
         	darken();
         }
 
-        return;    
-
+        return;   
     }
 
     public ArrayList<Actor> getActors()
